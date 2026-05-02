@@ -14,7 +14,7 @@ function App() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (email.includes("@")) setIsLoggedIn(true);
+    if (email.includes("@" && "gmail.com")) setIsLoggedIn(true);
   };
 
   const handleLogout = () => {
